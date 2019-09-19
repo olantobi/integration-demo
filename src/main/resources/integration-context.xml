@@ -17,9 +17,9 @@
     <int:service-activator ref="reverseService" input-channel="inputChannel" method="reverse" />
 
     <!-- Spring Bean -->
-    <bean id="printService" class="com.liferon.integrationdemo.service.impl.PrintServiceImpl" />
+    <bean id="printService" class="com.liferon.integrationdemo.service.PrintService" />
 
     <!-- Spring Bean -->
-    <bean id="reverseService" class="com.liferon.integrationdemo.service.impl.ReverseServiceImpl" />
+    <bean id="reverseService" class="com.liferon.integrationdemo.service.ReverseService" />
 
 </beans>

@@ -1,5 +1,7 @@
 package com.liferon.integrationdemo.service;
 
-public interface ReverseService {
-    public void reverse(String message);
+public class ReverseService {
+    public void reverse(String message) {
+        System.out.println(new StringBuilder(message).reverse().toString());
+    }
 }
